@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <style>
       * {
-        border: thin red solid;
+        border: thin grey solid;
       }
 
       body{
@@ -24,6 +24,13 @@
         /* prevent the image from being squished */
         border-radius: 128px;
         /* make it round  */
+      }
+
+      .link-image{
+        width: 80px; 
+        height: 80px;
+        object-fit: cover;
+        border-radius: 80px;
       }
 
       .social-icons-row {
@@ -62,17 +69,17 @@
 
       <div class="links-row">
         <div class="link">
-          <img src="/images/a-little-life.jpg" alt="book cover of a little life">
+          <img class="link-image" src="/images/a-little-life.jpg" alt="book cover of a little life">
           <a href="https://www.goodreads.com/book/show/22822858-a-little-life" target="_blank">A little life - Hanya Yanagihara</a>
         </div>
         
         <div class="link">
-          <img src="/images/dream-of-the-red-chamber.jpg" alt="book cover of dream of the red chamber">
+          <img class="link-image" src="/images/dream-of-the-red-chamber.jpg" alt="book cover of dream of the red chamber">
           <a href="https://www.goodreads.com/book/show/139874.The_Story_of_the_Stone_or_The_Dream_of_the_Red_Chamber_Vol_1" target="_blank">Dream of the red chamber - Cao Xueqin</a>
         </div>
         
         <div class="link">
-          <img src="/images/ganh-ganh-gong-gong.png" alt="book cover of ganh ganh gong gong">
+          <img class="link-image" src="/images/ganh-ganh-gong-gong.png" alt="book cover of ganh ganh gong gong">
           <a href="https://www.goodreads.com/book/show/58022482-g-nh-g-nh-g-ng-g-ng" target="_blank">Gánh gánh gồng gồng - Xuân Phượng</a>
         </div>
       </div> <!-- /links-row -->
