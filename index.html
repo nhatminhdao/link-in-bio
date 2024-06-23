@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>Minh's link-in-bio</title>
-    
+
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- add all characters and make the design responsive for phone -->
 
@@ -35,6 +35,19 @@
       .image-row {
         padding: 100px 100px;
         margin: auto;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .name-row {
+        margin-bottom: 30px;
+        text-align:center;
+      }
+
+      .social-icons-row {
+        display: flex;
+        margin-bottom: 30px;
+        justify-content: center; 
       }
 
       .avatar-image {
@@ -51,12 +64,11 @@
         border-radius: 80px;
       }
 
-      .social-icons-row {
-        display: flex
-      }
-
       .link {
-        background: rgba(233, 65, 150, 0.2);
+        background: white;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
       }
 
     </style>
@@ -76,11 +88,7 @@
         <div class="social">
           <a href="https://www.linkedin.com/in/nhatminhdao/" target="_blank">Linkedin</a>
         </div>
-        
-        <div class="social">
-          <a href="https://www.facebook.com/minh040/" target="_blank">Facebook</a>
-        </div>
-        
+                
         <div class="social">
           <a href="https://github.com/nhatminhdao" target="_blank">Github</a>
         </div>
@@ -93,17 +101,17 @@
       <div class="links-row">
         <div class="link">
           <img class="link-image" src="/images/a-little-life.jpg" alt="book cover of a little life">
-          <a href="https://www.goodreads.com/book/show/22822858-a-little-life" target="_blank">A little life - Hanya Yanagihara</a>
+          <a class="link-text" href="https://www.goodreads.com/book/show/22822858-a-little-life" target="_blank">A little life - Hanya Yanagihara</a>
         </div>
         
         <div class="link">
           <img class="link-image" src="/images/dream-of-the-red-chamber.jpg" alt="book cover of dream of the red chamber">
-          <a href="https://www.goodreads.com/book/show/139874.The_Story_of_the_Stone_or_The_Dream_of_the_Red_Chamber_Vol_1" target="_blank">Dream of the red chamber - Cao Xueqin</a>
+          <a class="link-text" href="https://www.goodreads.com/book/show/139874.The_Story_of_the_Stone_or_The_Dream_of_the_Red_Chamber_Vol_1" target="_blank">Dream of the red chamber - Cao Xueqin</a>
         </div>
         
         <div class="link">
           <img class="link-image" src="/images/ganh-ganh-gong-gong.png" alt="book cover of ganh ganh gong gong">
-          <a href="https://www.goodreads.com/book/show/58022482-g-nh-g-nh-g-ng-g-ng" target="_blank">Gánh gánh gồng gồng - Xuân Phượng</a>
+          <a class="link-text" href="https://www.goodreads.com/book/show/58022482-g-nh-g-nh-g-ng-g-ng" target="_blank">Gánh gánh gồng gồng - Xuân Phượng</a>
         </div>
       </div> <!-- /links-row -->
     </div> <!-- /main-container -->
