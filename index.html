@@ -2,7 +2,10 @@
 <html>
   <head>
     <title>Minh's link-in-bio</title>
-    <meta charset="UTF-8">
+    
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- add all characters and make the design responsive for phone -->
+
     <style>
       * {
         border: thin grey solid;
@@ -18,6 +21,11 @@
         background: linear-gradient(360deg, #e8e8e4, #ebeae4, #edece4, #f0eee4, #f4f0e4, #f7f2e4, #fbf3e4, #fff5e4);
         min-height:100%;
         color: #565655;
+      
+      }
+      .main-container{
+        max-width: 640px;
+        margin: auto; /* make the block centered */
       }
 
       a {
@@ -26,15 +34,14 @@
       
       .image-row {
         padding: 100px 100px;
+        margin: auto;
       }
 
       .avatar-image {
         width: 128px;
         height: 128px;
-        object-fit: cover;
-        /* prevent the image from being squished */
-        border-radius: 128px;
-        /* make it round  */
+        object-fit: cover; /* prevent the image from being squished */
+        border-radius: 128px; /* make it round  */        
       }
 
       .link-image{
