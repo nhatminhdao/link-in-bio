@@ -3,25 +3,39 @@
   <head>
     <title>Minh's link-in-bio</title>
     <meta charset="UTF-8">
-  </head>
-  <body>
     <style>
       * {
         border: thin red solid;
       }
 
+      body{
+        padding-top: 40px;
+        padding-bottom: 40px;
+      }
+
       .image-row {
         padding: 100px 100px;
+      }
 
+      .avatar-image {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        /* prevent the image from being squished */
+        border-radius: 128px;
+        /* make it round  */
       }
 
       .social-icons-row {
         display: flex
       }
     </style>
+  </head>
+  <body>
+    
     <div class="main-container">
       <div class="image-row"> 
-        <img src="/images/pic2.jpg" alt="cartoon drawing of Minh">
+        <img class="avatar-image" src="/images/pic2.jpg" alt="cartoon profile pic">
       </div>  
       
       <div class="name-row">
@@ -48,17 +62,17 @@
 
       <div class="links-row">
         <div class="link">
-          <img src="/images/a-little-life.jpg" alt="cover of a little life">
+          <img src="/images/a-little-life.jpg" alt="book cover of a little life">
           <a href="https://www.goodreads.com/book/show/22822858-a-little-life" target="_blank">A little life - Hanya Yanagihara</a>
         </div>
         
         <div class="link">
-          <img src="/images/dream-of-the-red-chamber.jpg" alt="cover of dream of the red chamber">
+          <img src="/images/dream-of-the-red-chamber.jpg" alt="book cover of dream of the red chamber">
           <a href="https://www.goodreads.com/book/show/139874.The_Story_of_the_Stone_or_The_Dream_of_the_Red_Chamber_Vol_1" target="_blank">Dream of the red chamber - Cao Xueqin</a>
         </div>
         
         <div class="link">
-          <img src="/images/ganh-ganh-gong-gong.png" alt="cover of ganh ganh gong gong">
+          <img src="/images/ganh-ganh-gong-gong.png" alt="book cover of ganh ganh gong gong">
           <a href="https://www.goodreads.com/book/show/58022482-g-nh-g-nh-g-ng-g-ng" target="_blank">Gánh gánh gồng gồng - Xuân Phượng</a>
         </div>
       </div> <!-- /links-row -->
