@@ -4,8 +4,9 @@
     <title>Minh's link-in-bio</title>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <!-- make the design responsive for phone -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,13 +22,15 @@
       }
 
       body{
-        padding-top: 40px;
-        padding-bottom: 40px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         background: linear-gradient(360deg, #e8e8e4, #ebeae4, #edece4, #f0eee4, #f4f0e4, #f7f2e4, #fbf3e4, #fff5e4);
         min-height:100%;
         color: #565655;
         font-family: "Overpass Mono", monospace;
-        font-optical-sizing: auto;    
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-size: 15px;    
       
       }
       .main-container{
@@ -41,25 +44,29 @@
       }
       
       .image-row {
-        padding: 100px 100px;
+        padding: 70px 70px;
         margin: auto;
-        margin-bottom: 20px;
         text-align: center;
       }
 
       .name-row {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
         text-align:center;
         font-family: "Playwrite ES Deco", cursive;
-        font-size: 30px;
+        font-size: 26px;
         font-weight: 900;
         font-optical-sizing: auto;
+        color: rgb(255, 4, 4)
       }
 
       .social-icons-row {
         display: flex;
         margin-bottom: 30px;
         justify-content: center; 
+      }
+
+      .social {
+        margin: 0 25px;
       }
 
       .avatar-image {
@@ -81,11 +88,13 @@
         margin-bottom: 20px;
         display: flex;
         align-items: center;
+        border-radius: 1000px;
+        padding: 5px;
       }
 
       .link-text {
         text-align: center;
-        flex-grow:1;
+        flex-grow: 1;
       }
 
     </style>
@@ -103,15 +112,21 @@
       
       <div class="social-icons-row">
         <div class="social">
-          <a href="https://www.linkedin.com/in/nhatminhdao/" target="_blank">Linkedin</a>
+          <a href="https://www.linkedin.com/in/nhatminhdao/" target="_blank"> 
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
         </div>
                 
         <div class="social">
-          <a href="https://github.com/nhatminhdao" target="_blank">Github</a>
+          <a href="https://github.com/nhatminhdao" target="_blank"> 
+            <i class="fa-brands fa-github"></i>
+          </a>
         </div>
         
         <div class="social">
-          <a href="mailto:nhatminhdao@chicagobooth.edu" target="_blank">Email</a>
+          <a href="mailto:nhatminhdao@chicagobooth.edu" target="_blank"> 
+            <i class="fa-regular fa-envelope"></i>
+          </a>
         </div>
       </div><!-- /social-icons-row -->
 
