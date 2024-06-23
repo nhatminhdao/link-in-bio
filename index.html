@@ -3,8 +3,13 @@
   <head>
     <title>Minh's link-in-bio</title>
 
-    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- add all characters and make the design responsive for phone -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- make the design responsive for phone -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&family=Playwrite+ES+Deco:wght@100..400&display=swap" rel="stylesheet">
 
     <style>
       * {
@@ -21,8 +26,8 @@
         background: linear-gradient(360deg, #e8e8e4, #ebeae4, #edece4, #f0eee4, #f4f0e4, #f7f2e4, #fbf3e4, #fff5e4);
         min-height:100%;
         color: #565655;
-        font-family: "Courier New";
-        font-weight: 550;
+        font-family: "Overpass Mono", monospace;
+        font-optical-sizing: auto;    
       
       }
       .main-container{
@@ -45,9 +50,10 @@
       .name-row {
         margin-bottom: 30px;
         text-align:center;
-        font-family: "Georgia";
-        font-size: 25px;
+        font-family: "Playwrite ES Deco", cursive;
+        font-size: 30px;
         font-weight: 900;
+        font-optical-sizing: auto;
       }
 
       .social-icons-row {
