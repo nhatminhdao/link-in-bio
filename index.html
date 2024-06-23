@@ -21,6 +21,8 @@
         background: linear-gradient(360deg, #e8e8e4, #ebeae4, #edece4, #f0eee4, #f4f0e4, #f7f2e4, #fbf3e4, #fff5e4);
         min-height:100%;
         color: #565655;
+        font-family: "Courier New";
+        font-weight: 550;
       
       }
       .main-container{
@@ -30,6 +32,7 @@
 
       a {
         color: #565655;
+        text-decoration: none; /* remove underlines from links */
       }
       
       .image-row {
@@ -42,6 +45,9 @@
       .name-row {
         margin-bottom: 30px;
         text-align:center;
+        font-family: "Georgia";
+        font-size: 25px;
+        font-weight: 900;
       }
 
       .social-icons-row {
@@ -51,15 +57,15 @@
       }
 
       .avatar-image {
-        width: 128px;
-        height: 128px;
+        width: 138px;
+        height: 138px;
         object-fit: cover; /* prevent the image from being squished */
         border-radius: 128px; /* make it round  */        
       }
 
       .link-image{
-        width: 80px; 
-        height: 80px;
+        width: 40px; 
+        height: 40px;
         object-fit: cover;
         border-radius: 80px;
       }
@@ -69,6 +75,11 @@
         margin-bottom: 20px;
         display: flex;
         align-items: center;
+      }
+
+      .link-text {
+        text-align: center;
+        flex-grow:1;
       }
 
     </style>
